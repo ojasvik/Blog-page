@@ -1,0 +1,200 @@
+
+body,html{
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: 'Gudea', sans-serif;
+}
+
+
+
+.front{
+	background:url('../images/rainbow.jpg');
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+.container{
+	width:90%;
+	margin:auto;
+}
+
+#name{
+	display:inline-block;
+	margin-top:5px;
+	font-size:2em;
+	font-weight:bold;
+	color:black;
+	font-family:"Russo One";
+}
+
+header{
+	width:100%;
+	background: rgb(186,186,189);
+    background: linear-gradient(90deg, rgba(186,186,189,1) 0%, rgba(230,237,235,0.011642156862745057) 100%);
+	padding:15px;
+	height:50px;
+	border-bottom: 2px solid dodgerblue;
+	border-radius:10px;
+	box-shadow:2px 2px 5px #333;
+}
+
+
+nav{
+	display:inline-block;
+	float:right;
+	
+
+}
+
+nav li{
+	display:inline-block;
+	list-style-type:none;
+	padding: 0px 6px;
+	margin-top: 11px;
+	font-size:1.5em;
+	font-family:'Dancing Script', cursive;
+}	
+
+nav a{
+	color:yellow;
+	padding:10px;
+	border-radius:7px;
+    box-shadow: 2px 2px 4px #333;
+}	
+
+nav a:hover{
+	box-shadow:none;
+	color:pink;
+	border:1px solid black;
+	background-color:black;
+}
+
+.active{
+	border:1px solid #CCC;
+	box-shadow:none;
+}
+
+
+.side-hover{
+	width:40%;
+	position:relative;
+	top:20%;
+	left:10%;
+	font-size:1.6em;
+	padding:20px;
+	color:purple;
+	background: rgb(186,186,189);
+	background: linear-gradient(90deg, rgba(186,186,189,0.5) 0%, rgba(228,235,233,0.5) 61%, rgba(164,167,166,0.5) 96%);
+	border-radius:20px;
+	border-left: 2px solid dodgerblue;
+	border-bottom: 2px solid dodgerblue;
+}
+
+.drag{
+	background:url('../images/waterdroplets.jpg');
+	height:100%;
+	background-position:center;
+	background-size:cover;
+}
+
+.feedback{
+	padding:30px;
+	background: rgb(186,186,189);
+    background: linear-gradient(90deg, rgba(186,186,189,1) 0%, rgba(230,237,235,0.011642156862745057) 100%);
+	font-style:courier;
+	width:30%;
+	border-radius:15px;
+	border-bottom:2px solid pink;
+	border-right:2px solid pink;
+	position:relative;
+	top:20%;
+	left:30%;
+	box-shadow:3px 3px 5px pink;
+}
+
+#form-header{
+	
+	margin-top:5px;
+	font-size:2em;
+	font-weight:bold;
+	color:white;
+	font-family:Times;
+}
+#rname, #email, #submit, textarea{
+	border: 1px solid black;
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+}
+
+#rname, #email, textarea{
+	width:80%
+}
+
+#submit{
+	padding:15px;
+	background-color:white;
+	font-weight:bold;
+	
+}
+
+#submit:hover{
+	cursor:pointer;
+	background-color:pink;
+	color:black;
+	border:2px solid white;
+}
+
+#rname:focus, #email:focus, textarea:focus{
+	background-color:#d9d9d9;
+	color:black;
+	border:2px solid white;
+}
+
+.content{
+	overflow:visible;
+	position:relative;
+}
+
+.content:before{
+	content:"";
+	position:fixed;
+	right:0;
+	left:0;
+	z-index:-1;
+	display:block;
+	background-image:url('../images/rainbow.jpg');
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	filter:blur(5px);
+}
+
+.blog-wrap{
+		width:75%;
+		max-width:500px;
+		margin:20px auto;
+		background-color:#EEE;
+		padding:20px;
+		box-shadow: 2px 2px 5px black;
+}
+
+.blog-wrap img{
+	width:100%;
+	overflow:hidden;
+}
+
+.blog-wrap h2{
+	text-align:center;
+	margin:10px;
+}
+
+.blog-wrap p{
+	margin:10px;
+	font-size:1em;
+	height:100%;
+}
